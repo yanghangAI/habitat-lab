@@ -121,6 +121,14 @@ If you use the Habitat platform in your research, please cite the [Habitat 1.0](
       python -m habitat_sim.utils.datasets_download --uids habitat_test_pointnav_dataset --data-path data/
       ```
 
+  - Download dataset:
+    ```bash
+    python -m habitat_sim.utils.datasets_download --uids replica_cad_dataset --data-path data/
+    python -m habitat_sim.utils.datasets_download --uids hab_fetch --data-path data/
+    python -m habitat_sim.utils.datasets_download --uids ycb --data-path data/
+    python -m habitat_sim.utils.datasets_download --uids rearrange_pick_dataset_v0 --data-path data/
+    python -m habitat_sim.utils.datasets_download --uids rearrange_dataset_v2 --data-path data/
+
 1. **Non-interactive testing**: Test the Pick task: Run the example pick task script
     <!--- Please, update `examples/example.py` if you update example. -->
     ```bash
